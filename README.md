@@ -93,35 +93,27 @@ The AI then generates:
 ```mermaid
 flowchart TD
     A[User] --> B[Streamlit Interface]
-
     B --> C[CSV Upload]
     B --> D[Income and Savings Input]
-
     C --> E[Pandas Data Processing]
-
     E --> F[Data Cleaning and Validation]
     F --> G[Expense Calculations]
-
     G --> H[KPI Dashboard]
     G --> I[Plotly Visualizations]
-
     G --> J[Dynamic Prompt Builder]
     D --> J
-
     J --> K[Google Gemini API]
-
     K --> L[AI Expense Roast]
     K --> M[AI Budget Recovery Plan]
-
     L --> B
     M --> B
-
     E --> N[Session State]
     N --> B
+```
 
 ## 🔄 Data Flow
 
-```
+```text
 User
   ↓
 Streamlit Interface
@@ -144,8 +136,6 @@ AI Expense Roast + Budget Recovery Plan
   ↓
 Streamlit Output
 ```
-
----
 
 ## 📁 Project Structure
 
