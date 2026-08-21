@@ -10,9 +10,9 @@ The project combines **Python, Pandas, Plotly, Streamlit, and Gemini AI** to tra
 
 ## 🚀 Live Application
 
-**Live Demo:** `ADD_YOUR_STREAMLIT_APP_URL_HERE`
+**Live Demo:** `https://expense-roaster-ai-cmkcnhxnf8f4qcgwsalzef.streamlit.app/`
 
-**GitHub Repository:** `ADD_YOUR_GITHUB_REPOSITORY_URL_HERE`
+**GitHub Repository:** `https://github.com/avikumar-cell/Expense-Roaster-AI.git`
 
 ---
 
