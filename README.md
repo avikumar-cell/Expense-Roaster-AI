@@ -119,6 +119,29 @@ flowchart TD
     E --> N[Session State]
     N --> B
 
+🔄 Data Flow
+User
+  ↓
+Streamlit Interface
+  ↓
+Upload Expense CSV
+  ↓
+Pandas Data Processing
+  ↓
+Data Cleaning and Validation
+  ↓
+Expense Analysis
+  ↓
+KPI Dashboard + Plotly Charts
+  ↓
+Dynamic Prompt Builder
+  ↓
+Google Gemini API
+  ↓
+AI Expense Roast + Budget Recovery Plan
+  ↓
+Streamlit Output
+
 ## 📁 Project Structure
 
 ```text
