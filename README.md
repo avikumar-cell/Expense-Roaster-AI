@@ -95,11 +95,11 @@ flowchart TD
     A[User] --> B[Streamlit Interface]
 
     B --> C[CSV Upload]
-    B --> D[Income & Savings Input]
+    B --> D[Income and Savings Input]
 
     C --> E[Pandas Data Processing]
 
-    E --> F[Data Cleaning & Validation]
+    E --> F[Data Cleaning and Validation]
     F --> G[Expense Calculations]
 
     G --> H[KPI Dashboard]
@@ -118,32 +118,6 @@ flowchart TD
 
     E --> N[Session State]
     N --> B
-
-## 🔄 Data Flow
-
-```text
-User
-  ↓
-Upload Expense CSV
-  ↓
-Pandas DataFrame
-  ↓
-Data Cleaning & Validation
-  ↓
-Expense Calculations
-  ↓
-KPI Cards + Interactive Charts
-  ↓
-Dynamic Prompt Generation
-  ↓
-Google Gemini AI
-  ↓
-AI Expense Analysis
-  ↓
-Budget Recovery Recommendations
-```
-
----
 
 ## 📁 Project Structure
 
