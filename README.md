@@ -119,7 +119,9 @@ flowchart TD
     E --> N[Session State]
     N --> B
 
-🔄 Data Flow
+## 🔄 Data Flow
+
+```
 User
   ↓
 Streamlit Interface
@@ -141,6 +143,9 @@ Google Gemini API
 AI Expense Roast + Budget Recovery Plan
   ↓
 Streamlit Output
+```
+
+---
 
 ## 📁 Project Structure
 
