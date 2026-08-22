@@ -138,26 +138,30 @@ if page == "📊 Dashboard":
         with col1:
             st.metric(
                 "💰 Total Spending",
-                f"₹{total_spending:,.2f}"
-            )
+                f"₹{total_spending:,.2f}",
+                delta=f"₹{total_spending:,.2f}"
+         )
 
         with col2:
             st.metric(
                 "📊 Average Expense",
-                f"₹{average_expense:,.2f}"
-            )
+                f"₹{average_expense:,.2f}",
+                delta=f"₹{average_expense:,.2f}"
+        )
 
         with col3:
             st.metric(
                 "🔥 Highest Expense",
-                f"₹{highest_expense:,.2f}"
-            )
+                f"₹{highest_expense:,.2f}",
+                delta=f"₹{highest_expense:,.2f}"
+        )
 
         with col4:
             st.metric(
                 "🧾 Transactions",
-                transaction_count
-            )
+                transaction_count,
+                delta=f"{transaction_count} records"
+        )
 
         st.divider()
 
@@ -231,10 +235,11 @@ if page == "📊 Dashboard":
                 f"on {top_category}."
             )
 
-            st.dataframe(
+            st.data_editor(
                 df,
                 use_container_width=True,
-                hide_index=True
+                hide_index=True,
+                num_rows="dynamic"
             )
 
     else:
